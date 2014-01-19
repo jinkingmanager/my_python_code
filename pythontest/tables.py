@@ -27,7 +27,7 @@ total_ddl_sql = """create table totals(id integer primary key autoincrement,date
 team_alter_sql1 = """alter table team add column subregion varchar(30) """
 
 player_ddl_sql = """ create table player(id integer primary key autoincrement,player_zn_name varchar(40),
-                    player_eng_name varchar(50),team_id integer(11),location varchar(10),height varchar(5),
+                    player_eng_name varchar(50),team(11),location varchar(10),height varchar(5),
                     weight varchar(10),birthday varchar(10),money varchar(100))"""
 
 player_record_ddl_sql = """ create table player_record(id integer primary key autoincrement,minutes integer(2),

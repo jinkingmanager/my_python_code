@@ -38,9 +38,8 @@ def getPlayersInfo():
             #print len(players)
             myplayer = Domain.Player()
             playerInfo = players.find_all("td")
-            print cmp("姓名".decode("utf8"),playerInfo[1].string)
             if cmp("姓名".decode("utf8"),playerInfo[1].string) == 0:
-                break
+                continue
             if(len(playerInfo) == 8):
                 aLinkInfo = playerInfo[1].find_all("a")
                 bInfo = playerInfo[1].find_all("b")
@@ -65,11 +64,7 @@ def getPlayersInfo():
 #save player
 def savePlayers():
     playerList = getPlayersInfo()
-    for player in playerList:
-        PlayerDB.insertPlayer(player)
-        print("insert players:" + player.playerEngName)
-
-    print len(playerList)
+    PlayerDB.insertPlayer(playerList)
 
 
 

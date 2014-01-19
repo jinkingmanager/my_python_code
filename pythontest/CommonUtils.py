@@ -15,7 +15,6 @@ def getSoupFromUrl(url):
     #print len(wp)
     return BeautifulSoup(wp)
 
-def getCursor():
-    cx = sqlite3.connect("nba.db")
-    cu = cx.cursor()
-    return cu
+def getConnect():
+    conn = sqlite3.connect("nba.db")
+    return conn
