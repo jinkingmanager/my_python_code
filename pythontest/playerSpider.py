@@ -8,6 +8,7 @@ import PlayerDB
 def getTeamsInfo():
     #base url
     url = "http://g.hupu.com/nba/players/"
+    teamUrl = "http://g.hupu.com/nba/teams/"
     #teams
     teams = ['Spurs','Rockets','Mavericks','Grizzlies','Pelicans','Clippers',
              'Warriors','Suns','Lakers','Kings','Blazers','Thunder','Nuggets',

@@ -9,3 +9,9 @@ class Player:
     birthday = ''
     money = ''
 
+class Team:
+    engName = ""
+    chineseName = ""
+    city = ""
+    shortName = ""
+    subregion = ""

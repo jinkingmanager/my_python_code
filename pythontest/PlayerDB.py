@@ -16,6 +16,9 @@ def insertPlayer(players):
     print insertValues[0]
     conn = CommonUtils.getConnect()
     cu = conn.cursor()
+    # before insert,delete data that is older
+    cu.execute("delete * from player")
+    # insert player data
     cu.executemany(insertSql,insertValues)
     conn.commit()
     conn.close()

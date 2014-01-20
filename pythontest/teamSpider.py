@@ -3,3 +3,46 @@
 __author__ = 'siyu'
 
 import CommonUtils
+import Domain
+
+# get team url page content
+def getTeamUrlContent():
+
+    teamUrl = "http://g.hupu.com/nba/teams/"
+    #teams
+    teams = ['Spurs','Rockets','Mavericks','Grizzlies','Pelicans','Clippers',
+             'Warriors','Suns','Lakers','Kings','Blazers','Thunder','Nuggets',
+             'Timberwolves','Jazz','Raptors','Nets','Knicks','Celtics','76ers',
+             'Heat','Hawks','Wizards','Bobcats','Magic','Pacers','Bulls',
+             'Pistons','Cavaliers','Bucks']
+
+    teamDic = {}
+
+    for teamName in teams:
+        url = teamUrl + teamName
+        teamInfo = CommonUtils.getSoupFromUrl(url)
+        teamDic[teamName] = teamInfo
+
+    return teamDic
+
+def getTeamInfo():
+    teamDic = getTeamUrlContent()
+
+    teamInfo = []
+    # get Teaminfo
+    for teamName in teamDic:
+        team = Domain.Team
+        teamAllName = teamDic[teamName].find_all("h2")[0].string
+        names = teamAllName.split("(")
+        cnName = names[0]
+        enName = names[1].replace(")", "")
+        team.chineseName = cnName
+        team.engName = enName
+        team.shortName = teamName
+        team.city = enName.replace(teamName, "")
+
+        teamInfo.append(team)
+    return teamInfo
+
+if __name__ == '__main__':
+    getTeamInfo()
