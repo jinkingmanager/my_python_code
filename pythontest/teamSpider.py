@@ -1,9 +1,10 @@
-# -*- coding: utf-8 *-*
+# coding=utf-8
 #!/usr/bin/python
 __author__ = 'siyu'
 
 import CommonUtils
 import Domain
+import DAO
 
 # get team url page content
 def getTeamUrlContent():
@@ -31,18 +32,23 @@ def getTeamInfo():
     teamInfo = []
     # get Teaminfo
     for teamName in teamDic:
-        team = Domain.Team
+        team = Domain.Team()
         teamAllName = teamDic[teamName].find_all("h2")[0].string
-        names = teamAllName.split("(")
+        names = teamAllName.split(u"（")
         cnName = names[0]
-        enName = names[1].replace(")", "")
+        enName = names[1].replace(u"）", "")
         team.chineseName = cnName
         team.engName = enName
         team.shortName = teamName
         team.city = enName.replace(teamName, "")
 
         teamInfo.append(team)
+        print team.engName
+    print len(teamInfo)
     return teamInfo
 
+def saveTeams():
+    DAO.insertTeam(getTeamInfo())
+
 if __name__ == '__main__':
-    getTeamInfo()
+    saveTeams()

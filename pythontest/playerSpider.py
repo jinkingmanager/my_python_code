@@ -2,7 +2,7 @@
 __author__ = 'siyu'
 import CommonUtils
 import Domain
-import PlayerDB
+import DAO
 
 #get All teams info using for loop
 def getTeamsInfo():
@@ -65,7 +65,7 @@ def getPlayersInfo():
 #save player
 def savePlayers():
     playerList = getPlayersInfo()
-    PlayerDB.insertPlayer(playerList)
+    DAO.insertPlayer(playerList)
 
 
 
