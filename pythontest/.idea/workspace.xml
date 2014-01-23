@@ -4,7 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/tables.py" line="46" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50fb30f-1ff8-4b6b-a224-c8000b32325e" name="Default" comment="" />
+    <list default="true" id="f50fb30f-1ff8-4b6b-a224-c8000b32325e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nba.db" afterPath="$PROJECT_DIR$/nba.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DAO.py" afterPath="$PROJECT_DIR$/DAO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Domain.py" afterPath="$PROJECT_DIR$/Domain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables.py" afterPath="$PROJECT_DIR$/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="pythontest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,14 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerDB.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PlayerDB.py">
+      <file leaf-file-name="DAO.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DAO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="345">
-              <folding>
-                <element signature="e#20#33#0" expanded="true" />
-                <marker date="1389769821360" expanded="true" signature="95:490" placeholder="..." />
-              </folding>
+            <state line="41" column="20" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,7 +46,7 @@
       <file leaf-file-name="PointSpider.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PointSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="14" column="19" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -50,38 +55,16 @@
       <file leaf-file-name="CommonUtils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CommonUtils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="21" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding>
-                <element signature="e#21#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playerSpider.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/playerSpider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.6544715" vertical-offset="499" max-vertical-offset="1260">
-              <folding>
-                <element signature="e#35#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.0" vertical-offset="18165" max-vertical-offset="22080">
+            <state line="6" column="12" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spiderTest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spiderTest.py">
+      <file leaf-file-name="playerSpider.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playerSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="450">
+            <state line="61" column="25" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -90,11 +73,8 @@
       <file leaf-file-name="GetFileSizeThrouthHeader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GetFileSizeThrouthHeader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="33" selection-start="890" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="645">
-              <folding>
-                <element signature="e#35#49#0" expanded="true" />
-                <marker date="1389769079172" expanded="true" signature="740:947" placeholder="..." />
-              </folding>
+            <state line="32" column="33" selection-start="890" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="774">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +82,7 @@
       <file leaf-file-name="tables.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="855">
+            <state line="48" column="33" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1026">
               <folding />
             </state>
           </provider>
@@ -111,16 +91,16 @@
       <file leaf-file-name="teamSpider.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/teamSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="32" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1062">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Domain.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Domain.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Domain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="12" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="48" column="19" selection-start="728" selection-end="728" vertical-scroll-proportion="2.1708543" vertical-offset="0" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -133,30 +113,39 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/spiderTest" />
         <option value="$PROJECT_DIR$/crt_count.py" />
-        <option value="$PROJECT_DIR$/teamSpider.py" />
         <option value="$PROJECT_DIR$/constants.py" />
-        <option value="$PROJECT_DIR$/tables.py" />
         <option value="$PROJECT_DIR$/VSCollectionSpider.py" />
         <option value="$PROJECT_DIR$/Player.py" />
         <option value="$PROJECT_DIR$/PointSpider.py" />
-        <option value="$PROJECT_DIR$/Domain.py" />
         <option value="$PROJECT_DIR$/CommonUtils.py" />
         <option value="$PROJECT_DIR$/GetFileSizeThrouthHeader.py" />
         <option value="$PROJECT_DIR$/PlayerDB.py" />
         <option value="$PROJECT_DIR$/playerSpider.py" />
+        <option value="$PROJECT_DIR$/teamSpider.py" />
+        <option value="$PROJECT_DIR$/tables.py" />
+        <option value="$PROJECT_DIR$/DAO.py" />
+        <option value="$PROJECT_DIR$/Domain.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="676" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="735" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -174,7 +163,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -200,7 +189,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,41 +209,24 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/share/python-workspace/Python_Shell" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <PyConsoleSettings />
+      <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.playerSpider">
-    <configuration default="false" name="tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythontest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tables.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.tables">
     <configuration default="false" name="playerSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,24 +244,6 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="VSCollectionSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pythontest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PointSpider.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -324,11 +277,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythontest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PlayerDB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DAO.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="teamSpider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythontest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teamSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythontest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tables.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -454,19 +445,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tables" />
-      <item index="1" class="java.lang.String" itemvalue="Python.playerSpider" />
-      <item index="2" class="java.lang.String" itemvalue="Python.VSCollectionSpider" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GetFileSizeThrouthHeader" />
-      <item index="4" class="java.lang.String" itemvalue="Python.PlayerDB" />
+      <item index="0" class="java.lang.String" itemvalue="Python.playerSpider" />
+      <item index="1" class="java.lang.String" itemvalue="Python.GetFileSizeThrouthHeader" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PlayerDB" />
+      <item index="3" class="java.lang.String" itemvalue="Python.teamSpider" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tables" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.playerSpider" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PlayerDB" />
-        <item index="2" class="java.lang.String" itemvalue="Python.GetFileSizeThrouthHeader" />
-        <item index="3" class="java.lang.String" itemvalue="Python.VSCollectionSpider" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tables" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tables" />
+        <item index="1" class="java.lang.String" itemvalue="Python.teamSpider" />
+        <item index="2" class="java.lang.String" itemvalue="Python.playerSpider" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PlayerDB" />
+        <item index="4" class="java.lang.String" itemvalue="Python.GetFileSizeThrouthHeader" />
       </list>
     </recent_temporary>
   </component>
@@ -497,18 +488,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="676" extended-state="6" />
+    <frame x="65" y="24" width="735" height="576" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24089935" sideWeight="0.5684411" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49239543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24018475" sideWeight="0.50912106" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46766168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43155894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43117744" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -525,17 +516,17 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49239543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49087894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24089935" sideWeight="0.5684411" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24018475" sideWeight="0.50912106" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43155894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -551,24 +542,36 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/playerSpider.py</url>
-          <line>67</line>
+          <line>63</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/playerSpider.py</url>
-          <line>61</line>
+          <line>57</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/playerSpider.py</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/teamSpider.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Domain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="12" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spiderTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="29" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="435" />
@@ -577,11 +580,6 @@
     <entry file="file:///usr/lib/python3.3/urllib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="311" />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="0" selection-start="6013" selection-end="6013" vertical-scroll-proportion="0.38931298" vertical-offset="2028" max-vertical-offset="5910" />
       </provider>
     </entry>
     <entry file="file:///usr/lib/python2.7/lib-tk/Tkinter.py">
@@ -599,83 +597,69 @@
         <state line="119" column="19" selection-start="5371" selection-end="5371" vertical-scroll-proportion="0.62955856" vertical-offset="1457" max-vertical-offset="2235" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GetFileSizeThrouthHeader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="33" selection-start="890" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spiderTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="10" column="33" selection-start="234" selection-end="234" vertical-scroll-proportion="0.24725275" vertical-offset="0" max-vertical-offset="546" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="2.1244814" vertical-offset="18856" max-vertical-offset="26496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playerSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="25" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1404">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain.py">
+    <entry file="file://$PROJECT_DIR$/teamSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="12" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PointSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="32" column="18" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1062">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CommonUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="21" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="e#21#50#0" expanded="true" />
-          </folding>
+        <state line="6" column="12" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="450">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tables.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+        <state line="48" column="33" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1026">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+    <entry file="file://$PROJECT_DIR$/PointSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1142" column="0" selection-start="47510" selection-end="47510" vertical-scroll-proportion="0.0" vertical-offset="16028" max-vertical-offset="22080">
+        <state line="14" column="19" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GetFileSizeThrouthHeader.py">
+    <entry file="file://$PROJECT_DIR$/DAO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="890" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="365" max-vertical-offset="645">
-          <folding>
-            <element signature="e#35#49#0" expanded="true" />
-            <marker date="1389769079172" expanded="true" signature="740:947" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlayerDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="345">
-          <folding>
-            <element signature="e#20#33#0" expanded="true" />
-            <marker date="1389769821360" expanded="true" signature="95:490" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/teamSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state line="41" column="20" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playerSpider.py">
+    <entry file="file://$PROJECT_DIR$/Domain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.6544715" vertical-offset="499" max-vertical-offset="1260">
-          <folding>
-            <element signature="e#35#53#0" expanded="true" />
-          </folding>
+        <state line="48" column="19" selection-start="728" selection-end="728" vertical-scroll-proportion="2.1708543" vertical-offset="0" max-vertical-offset="1386">
+          <folding />
         </state>
       </provider>
     </entry>

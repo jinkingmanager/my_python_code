@@ -1,8 +1,10 @@
+# coding = utf-8
 __author__ = 'siyu'
 import Domain
 import  sqlite3
 import CommonUtils
 
+# 插入球员基础数据
 def insertPlayer(players):
     insertSql = "insert into player(player_zn_name,player_eng_name,team,location,height,weight,birthday,money) values(" \
                 "?,?,?,?,?,?,?,?)"
@@ -21,6 +23,7 @@ def insertPlayer(players):
     conn.commit()
     conn.close()
 
+# 插入球队基础数据
 def insertTeam(teams):
     insertSql = "insert into team(eng_name,chinese_name,city,short_name) values(?,?,?,?)"
 
@@ -35,3 +38,5 @@ def insertTeam(teams):
     cu.executemany(insertSql, insertValues)
     conn.commit()
     conn.close()
+
+# 插入比赛数据，包括球队数据及球员数据
