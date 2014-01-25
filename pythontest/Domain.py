@@ -22,6 +22,7 @@ class Team:
 
 # 球队数据模型
 class Point:
+    type = ''
     date = ''
     time = ''
     guest = ''
