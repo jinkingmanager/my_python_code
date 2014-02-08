@@ -1,4 +1,4 @@
-# coding = utf-8
+# coding:utf-8
 __author__ = 'siyu'
 import Domain
 import  sqlite3
@@ -38,5 +38,21 @@ def insertTeam(teams):
     cu.executemany(insertSql, insertValues)
     conn.commit()
     conn.close()
+
+# 插入赛程数据，仅包含日期、时间、主队、客队
+def insertSchedules(schedules):
+	insertSql = "insert into point(type,date,time,weekday,guest,home) values (?,?,?,?,?,?)"
+
+	insertValus = []
+	for point in schedules:
+		schedule = (point.type,point.date,point.time,point.weekday,point.guest,point.home)
+		insertValus.append(schedule)
+
+	conn = CommonUtils.getConnect()
+	cu = conn.cursor()
+	cu.execute("delete from point")
+	cu.executemany(insertSql,insertValus)
+	conn.commit()
+	conn.close()
 
 # 插入比赛数据，包括球队数据及球员数据
