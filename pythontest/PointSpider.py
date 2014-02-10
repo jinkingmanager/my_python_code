@@ -3,7 +3,7 @@ __author__ = 'siyu'
 import  CommonUtils
 
 def getUrlContent():
-    return CommonUtils.getSoupFromUrl("http://g.hupu.com/nba/daily/boxscore_23464.html")
+    return CommonUtils.getSoupFromUrl("http://g.hupu.com/nba/daily/boxscore_23325.html")
 
 def getTeamPoints():
     content = getUrlContent()

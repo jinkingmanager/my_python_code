@@ -66,9 +66,3 @@ def savePlayers():
     playerList = getPlayersInfo()
     DAO.insertPlayer(playerList)
 
-
-
-if __name__ == '__main__':
-    #savePlayerInfo()
-    #getPlayersInfo()
-    savePlayers()

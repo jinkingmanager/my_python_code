@@ -54,7 +54,3 @@ def getAllSchedule():
 			schedules.append(pointInfo)
 	# 插入schedule数据
 	DAO.insertSchedules(schedules)
-
-
-if __name__ == '__main__':
-	print getAllSchedule()
