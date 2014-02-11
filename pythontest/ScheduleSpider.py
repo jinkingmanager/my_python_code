@@ -26,9 +26,9 @@ def getAllSchedule():
 		# 为标题，需要取当天时间
 		if trInfo['bgcolor'] == '#FFD200':
 			# date = 10月05日星期六，替换掉月、日
-			tempDate = trInfo.find_all('td')[0].getText().replace(u'月', '-').replace(u'日', ' ')
-			curDate = tempDate.split(' ')[0]
-			curWeek = tempDate.split(' ')[1]
+			tempDate = trInfo.find_all('td')[0].getText()
+			curWeek = tempDate[-3:]
+			curDate = tempDate.replace(curWeek,'').replace(u'月', '-').replace(u'日', '')
 
 			# 截取前两位，获得月份
 			curMonth = curDate[0:2]
