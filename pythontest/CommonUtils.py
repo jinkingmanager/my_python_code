@@ -1,3 +1,4 @@
+#coding=utf-8
 __author__ = 'siyu'
 
 from bs4 import BeautifulSoup

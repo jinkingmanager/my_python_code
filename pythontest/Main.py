@@ -1,4 +1,4 @@
-#coding:utf-8
+#coding=utf-8
 __author__ = 'siyu'
 
 import playerSpider
@@ -8,13 +8,13 @@ import teamSpider
 
 if __name__ == '__main__':
     #球员数据抓取
-    #playerSpider.savePlayers()
+    playerSpider.savePlayers()
 
     #球队数据抓取
     #teamSpider.saveTeams()
 
     #赛程数据抓取
-    ScheduleSpider.getAllSchedule()
+    #ScheduleSpider.getAllSchedule()
 
     # 比赛数据抓取
     #PointSpider.getTeamPoints()
