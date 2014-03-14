@@ -64,5 +64,5 @@ def getPlayersInfo():
 #save player
 def savePlayers():
     playerList = getPlayersInfo()
-    DAO.insertPlayer(playerList)
+l    DAO.insertPlayer(playerList)
 
