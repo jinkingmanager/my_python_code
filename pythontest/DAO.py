@@ -6,36 +6,36 @@ import CommonUtils
 
 # 插入球员基础数据
 def insertPlayer(players):
-    insertSql = "insert into player(player_zn_name,player_eng_name,team,location,height,weight,birthday,money) values(" \
-                "?,?,?,?,?,?,?,?)"
+    insertSql = "insert into player(player_zn_name,player_eng_name,team,location,height,weight,birthday,money) " \
+                "values(""?,?,?,?,?,?,?,?)"
+    selectSql = "select * from player where player_eng_name = ? and birthday=?"
+    updateSql = "update player set team=?,location=?,height =?,weight=?,birthday=?,money=?,player_zn_name=? where player_eng_name=? and birthday=?"
 
     conn = CommonUtils.getConnect()
     cu = conn.cursor()
 
+    #cu.execute("delete from player")
+
     insertValues = []
-    updateSqls = []
+    updateValues = []
     for player in players:
         # 先判断是否存在此球员
-        selectSql = "select * from player where player_zn_name = '"+player.playerZnName + "' and player_eng_name='" + player.playerEngName+"'"
-        cu.execute(selectSql)
-        if(len(cu.fetchall()) == 0):
-            value = (player.playerZnName, player.playerEngName, player.teamName, player.location, player.height, player.weight, player.birthday, player.money)
-            insertValues.append(value)
+        cu.execute(selectSql, (player.playerEngName, player.birthday))
+        result = cu.fetchall()
+        if(len(result) == 0):
+            #若不存在，则直接插入
+            insertValues.append((player.playerZnName, player.playerEngName, player.teamName, player.location, player.height, player.weight, player.birthday, player.money))
         else:
             # 若存在，则直接更新即可
-            updateSql = "update from player set team=" + player.teamName + ",location=" + player.location + ",height ="
-            + player.height + ",weight=" + player.weight + ",birthday=" + player.birthday + ",money=" + player.money + " where player_zn_name = '"
-            + player.playerZnName + "' and player_eng_name='" + player.playerEngName + "'"
-
-            updateSqls.append(updateSql)
+            updateValues.append((player.teamName,player.location,player.height,player.weight,player.birthday,player.money,player.playerZnName,player.playerEngName,player.birthday))
 
     # before insert,delete data that is older
     #cu.execute("delete from player")
     # insert player data
-    print "新增数据" + len(insertValues)
-    print "更新数据" + len(updateSqls)
+    print "新增数据" + str(len(insertValues))
+    print "更新数据" + str(len(updateValues))
     cu.executemany(insertSql,insertValues)
-    cu.executemany(updateSqls)
+    cu.executemany(updateSql,updateValues)
     conn.commit()
     conn.close()
 

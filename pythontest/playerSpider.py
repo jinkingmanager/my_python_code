@@ -58,11 +58,11 @@ def getPlayersInfo():
 
                 playerList.append(myplayer)
 
-    print len(playerList)
+    print "共有球员：" + str(len(playerList))
     return playerList
 
 #save player
 def savePlayers():
     playerList = getPlayersInfo()
-l    DAO.insertPlayer(playerList)
+    DAO.insertPlayer(playerList)
 
