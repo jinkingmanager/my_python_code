@@ -24,9 +24,6 @@ def getTeamPoints():
     # 比分相关
     point = Domain.Point()
 
-    # 球员数据相关
-    playerRecord = Domain.PlayerRecord()
-
     #获取比分
     trInfos = content.find('table','itinerary_table').find_all('tr')
 
@@ -54,22 +51,23 @@ def getTeamPoints():
     point.guest4P = guestTdInfos[4].string
 
     # 存在加时的情况
-    if(len(homeTdInfos) == 6):
+    count = len(homeTdInfos)
+    if(count == 6):
         point.homePoint = homeTdInfos[5].string
         point.guestPoint = guestTdInfos[5].string
-    elif(len(homeTdInfos) == 7):
+    elif(count == 7):
         point.home5P = homeTdInfos[5].string
         point.guest5P = guestTdInfos[5].string
         point.homePoint = homeTdInfos[6].string
         point.guestPoint = guestTdInfos[6].string
-    elif(len(homeTdInfos) == 8):
+    elif(count == 8):
         point.home5P = homeTdInfos[5].string
         point.guest5P = guestTdInfos[5].string
         point.home6P = homeTdInfos[6].string
         point.guest6P = guestTdInfos[6].string
         point.homePoint = homeTdInfos[7].string
         point.guestPoint = guestTdInfos[7].string
-    elif(len(homeTdInfos) == 9):
+    elif(count == 9):
         point.home5P = homeTdInfos[5].string
         point.guest5P = guestTdInfos[5].string
         point.home6P = homeTdInfos[6].string
@@ -81,6 +79,42 @@ def getTeamPoints():
 
 
     #下面开始搞球员数据
+    # 球员数据相关
+    playerRecord = Domain.PlayerRecord()
+
+    playerRecordList = []
+    records = content.find_all('div','table_list_live')
+    homePlayersRecords = records[0].find_all('tr')
+    guestPlayerRecords = records[1].find_all('tr')
+
+    #去掉说明数据
+    del homePlayersRecords[0]
+    del homePlayersRecords[6]
+    del guestPlayerRecords[0]
+    del guestPlayerRecords[6]
+
+    #遍历取值
+    for homePlayItem in homePlayersRecords:
+        tempPlayerData = homePlayItem.find_all('td')
+
+        #为统计数据
+        if cmp("统计".decode("utf8"),tempPlayerData[0].string) == 0:
+            point.shoot = tempPlayerData[3].string.split('-')[1]
+            point.sucShoot = tempPlayerData[3].string.split('-')[0]
+
+        else:
+            #name
+            playerRecord.name = tempPlayerData[0].string
+            #time
+            playerRecord.minutes = tempPlayerData[2].string
+            #shoot datas
+            playerRecord.totalSuc = tempPlayerData[3].string.split('-')[0]
+            playerRecord.totalShoot = tempPlayerData[3].string.split('-')[1]
+            #3 datas
+            playerRecord.threeSuc = tempPlayerData[4].string.split('-')[0]
+            playerRecord.threeShoot = tempPlayerData[]
+
+
 
 
 

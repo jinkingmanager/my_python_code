@@ -45,8 +45,45 @@ class Point:
     home5P = ''
     home6P = ''
     home7P = ''
+    homeShoot = 0
+    homeSucShoot = 0
+    homeThree = 0
+    homeSucThree = 0
+    homeFree = 0
+    homeSucFree = 0
+    homeFrontBoard = 0
+    homeBackBoard = 0
+    homeTotalBoard = 0
+    homeAssist = 0
+    homeFault = 0
+    homeSteal = 0
+    homeTurnover = 0
+    homeBlock = 0
+    homeTotalRate = 0.0
+    homeThreeRate = 0.0
+    homeFreeRate = 0.0
+    guestShoot = 0
+    guestSucShoot = 0
+    guestThree = 0
+    guestSucThree = 0
+    guestFree = 0
+    guestSucFree = 0
+    guestFrontBoard = 0
+    guestBackBoard = 0
+    guestTotalBoard = 0
+    guestAssist = 0
+    guestFault = 0
+    guestSteal = 0
+    guestTurnover = 0
+    guestBlock = 0
+    guestTotalRate = 0.0
+    guestThreeRate = 0.0
+    guestFreeRate = 0.0
 
-# 球员数据模型
+
+
+
+# 球员记录数据模型
 class PlayerRecord:
     minutes = ''
     totalShoot = ''
@@ -69,4 +106,5 @@ class PlayerRecord:
     isHome = ''
     date = ''
     isBench = ''
+    name=''
 
